@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 import './App.css';
+import logo from './assets/logo.svg'
 
 function App() {
   const [originalLink, setOriginalLink] = useState('');
@@ -36,7 +37,7 @@ function App() {
         <div className="wideNav">
           <div className="container">
             <ul className="left">
-              <li><a href="#"><img src="/images/logo.svg" alt="shortly logo image" /></a></li>
+              <li><a href="#"><img src={logo} /></a></li>
               <li><a href="#">Features</a></li>
               <li><a href="#">Pricing</a></li>
               <li><a href="#">Resources</a></li>
@@ -49,7 +50,7 @@ function App() {
         </div>
         <div className="mobileNav">
           <div className="container">
-            <div className="logo"><a href="#"><img src="/images/logo.svg" alt="shortly logo image" /></a></div>
+            <div className="logo"><a href="#"><img src="./assets/logo.svg" alt="shortly logo image" /></a></div>
             <div className="berg">
               <span></span>
               <span></span>
