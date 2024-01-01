@@ -74,7 +74,8 @@ function App() {
         <div className="landing">
           <div className="container">
               <div className="left">
-                <h1>More than just shorter links</h1>
+                <h1>More than just shorter links oo</h1>
+                <p>Abi oo</p>p>
                 <p>Build your brand’s recognition and get detailed insights on how your links are performing.</p>
                 <button className="getStartedBtn">Get Started</button>
               </div>
